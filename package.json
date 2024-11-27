@@ -1,0 +1,61 @@
+{
+  "name": "news4u",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.2",
+    "@legendapp/motion": "^2.4.0",
+    "@neondatabase/serverless": "^0.10.1",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/datetimepicker": "8.0.1",
+    "@react-navigation/native": "^6.0.2",
+    "@tanstack/react-query": "^5.59.19",
+    "expo": "~51.0.39",
+    "expo-av": "~14.0.7",
+    "expo-crypto": "~13.0.2",
+    "expo-font": "~12.0.9",
+    "expo-image": "~1.13.0",
+    "expo-linking": "~6.3.1",
+    "expo-router": "~3.5.24",
+    "expo-splash-screen": "~0.27.7",
+    "expo-status-bar": "~1.12.1",
+    "expo-system-ui": "~3.0.7",
+    "expo-web-browser": "~13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-loading-spinner-overlay": "^3.0.1",
+    "react-native-popup-menu": "^0.16.1",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-virtualized-view": "^1.0.0",
+    "react-native-web": "~0.19.10",
+    "rn-vertical-slider": "^4.4.0",
+    "twrnc": "^4.5.1",
+    "expo-haptics": "~13.0.1",
+    "lottie-react-native": "6.7.0",
+    "expo-dev-client": "~4.0.29",
+    "react-native-gesture-handler": "~2.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "jest": "^29.2.1",
+    "jest-expo": "~51.0.3",
+    "react-test-renderer": "18.2.0",
+    "tailwindcss": "^3.4.14",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
