@@ -6,8 +6,8 @@ export default function StackLayout() {
     return (
         <NewsContextProvider>
             <Stack>
-                <Stack.Screen name="news" options={{ headerShown: false }} />
-                <Stack.Screen name="news/[id]" options={{ headerShown: false }} />
+                <Stack.Screen name="index" options={{ headerShown: false }} />
+                <Stack.Screen name="[id]" options={{ headerShown: false }} />
             </Stack>
         </NewsContextProvider>
     )

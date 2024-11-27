@@ -42,7 +42,7 @@ export default function NewsDetails() {
 
     if (!news) {
         return (
-            <View style={tw`flex-1 justify-center items-center gap-y-5 bg-[#ccc]`}>
+            <View style={tw`flex-1 justify-center items-center gap-y-5 bg-[#e6e6e6]`}>
                 <Text style={tw`text-lg text-neutral-600`}>News isn't available. Try something else.</Text>
                 <Button title="Go Back" onPress={router.back} />
             </View>
@@ -100,7 +100,7 @@ export default function NewsDetails() {
                     {news.video && (
                         <Video
                             source={{ uri: news.video }}
-                            style={tw`w-full h-46 m-1`}
+                            style={tw`w-full h-46`}
                             resizeMode={ResizeMode.CONTAIN}
                             useNativeControls
                             shouldPlay={false}

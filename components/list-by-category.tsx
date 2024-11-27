@@ -77,7 +77,6 @@ export const ListByCategory = ({ categoryName, data, index, isLast }: ListByCate
                     <Motion.Pressable onLongPress={onLongPress} onTouchEnd={onTouchEnd}>
                         <MaterialCommunityIcons style={tw`absolute right-7 bottom-[10px]`} name="delete-clock-outline" size={27} color={colors.tint} />
                         <Motion.View
-                            whileHover={{ x: -width + 40 }}
                             whileTap={{ x: -width + 40 }}
                             transition={{ type: "tween", duration: 1000, delay: 100, easing: "linear" }}
                             style={tw`bg-primary h-[50px] justify-center px-5`}
