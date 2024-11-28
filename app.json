@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FFEFD5"
+      "backgroundColor": "#dbb4ad"
     },
     "ios": {
       "supportsTablet": true
@@ -18,7 +18,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#FFEFD5"
+        "backgroundColor": "#ff6347"
       },
       "package": "com.yu1ia.news4u"
     },

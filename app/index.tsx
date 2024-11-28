@@ -10,7 +10,7 @@ import { useMemo, useRef, useState } from 'react';
 import { FlatList, NativeScrollEvent, TouchableOpacity, View } from 'react-native';
 import Spinner from 'react-native-loading-spinner-overlay';
 
-// text = '', sourceCountry = '', lang = 'en', sentiment = 0, date = '', newsSource = '', category = '', author = 'Lawrence Ostlere', entity = '', sortDirection = '', location = ''
+// author = 'Lawrence Ostlere'
 
 
 export default function Index() {
